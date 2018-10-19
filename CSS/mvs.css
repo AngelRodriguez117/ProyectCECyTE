@@ -1,0 +1,49 @@
+@font-face{
+    font-family:sansbold;
+    src: url(SoberanaSans-Light.otf);
+}
+
+h3{
+    font-family:sansbold;
+    display: block;
+    float: left;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 400px;
+    height: 300px;
+    text-decoration: none;
+    color: #777777;
+    font-size:18px;
+    background: #fff;
+
+}
+h3 p1{
+    display: block;
+    width: 400px;
+    height: 10px;
+   text-decoration: none;
+    color: black;
+}
+
+h4{
+    font-family:sansbold;
+    display: block;
+    float:right;
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 400px;
+    height: 300px;
+    text-decoration: none;
+    color: #777777;
+    font-size:18px;
+    background: #fff;
+}
+h4 p3{
+    display: block;
+    width: 400px;
+    height: 10px;
+   text-decoration: none;
+    color: black;
+}

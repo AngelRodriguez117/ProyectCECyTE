@@ -1,0 +1,67 @@
+@font-face{
+    font-family:sansbold;
+    src: url(SoberanaSans-Light.otf);
+}
+h5{
+    margin: auto;
+    width: 100%;
+    height: 220px;
+}
+h5 ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+h5 li{
+    text-align: center;
+    flex-grow: 1;
+    border-right: 0px solid #fff;
+}
+h5 li a{
+    font-family:sansbold;
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 25px;
+    padding: 3px 20px;
+    font-weight: 50;
+    font-size: 13px;
+    text-decoration: none;
+    color: #67BD3C;
+    background-color: #FFF;
+    border: 2px solid #67BD3C;
+}
+h5 li p{
+    font-family:sansbold;
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 45px;
+    padding: 10px 20px;
+    font-weight: 50;
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #67BD3C;
+}
+h5 li a:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #67BD3C;
+    border-radius: 1px;
+    border: 2px solid #fff;
+}
+h4{
+   font-family:sansbold;
+   font-weight: 0;
+    font-size: 30px;
+    text-decoration: none;
+    color: #A7ABAC;
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+}
