@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family:sansbold;
+    src: url(SoberanaSans-Light.otf);
+}
+
+body{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background: #A7ABAC;
+
+}
+
+header{
+   margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.baner {
+    margin: auto;
+    width: 100%;
+    height: 150px;
+    float: left;
+    background: #fff;
+}
+h1{
+    margin: auto;
+    padding: 0px 25%;
+    float: left;
+}
+@media (max-width:750px){
+    h1{
+        margin: auto;
+        padding: 0px 0px;
+    }
+    h1 img{
+        width: 360px;
+        height: 70px;
+    }
+}
+
+.men{
+    margin: auto;
+    width: 100%;
+    float: left;
+}
+h2
+{
+  float: left;
+    width: 100%;
+    height: 32px;
+    background: #67BD3C;
+}
+
+.contenedor{
+
+    margin: auto;
+    margin-top: 0px;
+    width: 1200px;
+    height: 900px;
+    background-color: #EEEEEE;
+}
+.bad{
+    width: 960px;
+    height: 143px;
+}
+.contenido{
+    float: left;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 900px;
+    height: 600px;
+    background-color: #EEEEEE;
+}
+.colum{
+    float: right;
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 10PX;
+    width: 250px;
+    height: 600px;
+    background-color: burlywood
+}
+
+.pie{
+    float: left;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-color: #141414;
+
+}
+.logo{
+    float: left;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 435px;
+    height: 180px;
+    border-right: 2px solid #333;
+
+}
+h100{
+    margin: auto;
+    margin-top: 5px;
+    padding: 0px 20%;
+    float: left;
+}
+h101{
+    margin: auto;
+    margin-top: 5px;
+    padding: 0px 20%;
+    float: left;
+}
+.infor{
+    float: left;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 435px;
+    height: 180px;
+    border-right: 2px solid #333;
+}
+.infor ul{
+    margin: auto;
+    margin-top: 5px;
+    padding: 0px 20%;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.infor li{
+    flex-grow: 1;
+}
+.infor li a{
+    font-family:sansbold;
+    display: block;
+    padding: 10px 20px;
+    font-weight: 100;
+    font-size: 13px;
+    text-decoration: none;
+    color: #A7ABAC;
+
+}
+.user{
+    float: right;
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 435px;
+    height: 180px;
+}
